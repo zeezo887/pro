@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+.header {
+    background-color: #375696;
+    text-align: center;
+    padding: 5px 0
+}
+
+.header h2 {
+    color: #ffffff;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #ebeef5
+}
+
+.middle {
+    width: 400px;
+    justify-content: center;
+    text-align: center
+}
+
+form button {
+    width: 100%
+}
+
+.middle a {
+    font-size: smaller;
+}
+
+.footer-links {
+    display: flex;
+
+}
+
+.footer-links>div {
+    flex: 50%;
+    text-align: center;
+    font-size: small
+}
+
+.header-big {
+    display: flex;
+    width: 1400px;
+    background-image: linear-gradient(#48659f, #375696);
+}
+
+.brand-name {
+    min-width: 800px;
+    color: #ffffff;
+    padding: 25px 0 0 13%
+}
+
+.login-form {
+    flex-basis: 500px
+}
+
+.login-form input {
+    border: 1px solid black;
+    width: 150px
+}
+
+.login-form label,
+.login-form a,
+.login-form button {
+    font-size: small;
+    color: #ffffff;
+    border-radius: 3px
+}
+
+.login-form button {
+    background-color: #315597;
+    border: 1px solid #252222;
+
+}
+
+.body-big {
+    display: flex;
+    width: 1400px;
+    justify-content: flex-start;
+    flex-wrap: no-wrap;
+    background-image: linear-gradient(#fefefe, #d1d6e7)
+}
+
+.image-holder {
+    min-width: 800px;
+    color: #375696;
+    padding: 40px 0 0 13%;
+}
+
+.reg-form {
+    flex-basis: 400px
+}
+
+.reg-form select {
+    height: 30px;
+}
+
+.reg-form button {
+    width: 200px
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 450px) {
+    .big {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .middle {
+        width: 90%
+    }
+}
