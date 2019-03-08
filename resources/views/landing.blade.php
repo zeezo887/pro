@@ -30,7 +30,7 @@
         <div class="row" style="display: block">
             <div style="justify-content:center; display: flex">
                 <a href="/facebook">
-                    <button class="btn btn-success btn-lg" style="text-align:center">
+                    <button class="btn btn-success btn-lg font-weight-bold" style="text-align:center">
                         Login to facebook to <br> get started
                     </button>
                 </a>

